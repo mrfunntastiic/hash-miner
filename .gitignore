@@ -1,0 +1,22 @@
+# Environment & secrets
+.env
+*.key
+
+# Compiled CUDA
+cuda/*.so
+cuda/*.dylib
+cuda/*.o
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Node (legacy)
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
